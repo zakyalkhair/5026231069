@@ -154,7 +154,7 @@
   </div>
 
   <div class="d-flex align-items-center mb-4 mt-3">
-    <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\icon profil.png" 
+    <img src="image\icon profil.png" 
          class="rounded-circle me-2" 
          style="width: 40px; height: 40px; object-fit: cover;" 
          alt="User">
@@ -166,14 +166,14 @@
 
   <div>
     <a href="#" class="d-flex ml-3">
-      <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\helperlog.png" 
+      <img src="image\helperlog.png" 
            class="me-2" 
            style="width: 20px; height: 20px;" 
            alt="Helperlog"> Helperlog
     </a>
 
     <a href="#" class="d-flex align-items-center mb-2">
-      <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\helperfind.png" 
+      <img src="image\helperfind.png" 
            class="me-2" 
            style="width: 20px; height: 20px;" 
            alt="Helperfind"> 
@@ -181,7 +181,7 @@
     </a>
 
     <a href="#" class="d-flex align-items-center mb-2">
-      <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\helperassistant.png" 
+      <img src="image\helperassistant.png" 
            class="me-2" 
            style="width: 20px; height: 20px;" 
            alt="Helperassist"> Helperassist
@@ -190,7 +190,7 @@
 
   <div class="mt-auto text-center">
     <a href="#" class="logout-btn btn-sm d-inline-flex align-items-center" style="align-self: center; margin-bottom: 160px;">
-      <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\logout.webp" 
+      <img src="image\logout.webp" 
            class="mr-2" 
            style="width: 20px; height: 20px;" 
            alt="Logout"> Logout
@@ -205,7 +205,7 @@
     <div class="custom-card p-3 mb-3 shadow-sm">
       <div class="row align-items-center">
         <div class="col-auto">
-          <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\icon intan.png" 
+          <img src="image\icon intan.png" 
                class="rounded-circle img-fluid" 
                alt="Intan Permata" 
                style="width: 55px; height: 55px; object-fit: cover;">
@@ -218,19 +218,19 @@
         <div class="col-auto text-center">
           <div class="d-flex align-items-center justify-content-center">
             <span class="text-warning h5 m-1">
-              <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang nonaktif.png" alt="">
+              <img src="image\bintang nonaktif.png" alt="">
             </span>
             <span class="text-warning h5 m-1">
-              <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang nonaktif.png" alt="">
+              <img src="image\bintang nonaktif.png" alt="">
             </span>
             <span class="text-warning h5 m-1">
-              <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang nonaktif.png" alt="">
+              <img src="image\bintang nonaktif.png" alt="">
             </span>
             <span class="text-warning h5 m-1">
-              <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang nonaktif.png" alt="">
+              <img src="image\bintang nonaktif.png" alt="">
             </span>
             <span class="text-warning h5 m-1">
-              <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang nonaktif.png" alt="">
+              <img src="image\bintang nonaktif.png" alt="">
             </span>
           </div>
           <p class="text-muted mb-0">Beri Penilaian untuk Intan <span role="img" aria-label="emoji">🤗</span></p>
@@ -241,7 +241,7 @@
     <div class="custom-card p-3 mb-3 shadow-sm">
       <div class="row align-items-center">
         <div class="col-auto">
-          <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\icon budi.png" 
+          <img src="image\icon budi.png" 
                class="rounded-circle img-fluid" 
                alt="Budi Dorami" 
                style="width: 55px; height: 55px; object-fit: cover;">
@@ -256,19 +256,19 @@
           <div class="text-center">
             <div class="d-flex align-items-center justify-content-center">
               <span class="text-warning h5 m-1">
-                <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang.png" alt="">
+                <img src="image\bintang.png" alt="">
               </span>
               <span class="text-warning h5 m-1">
-                <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang.png" alt="">
+                <img src="bintang.png" alt="">
               </span>
               <span class="text-warning h5 m-1">
-                <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang.png" alt="">
+                <img src="image\bintang.png" alt="">
               </span>
               <span class="text-warning h5 m-1">
-                <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang.png" alt="">
+                <img src="image\bintang.png" alt="">
               </span>
               <span class="text-warning h5 m-1">
-                <img src="C:\Zaky\Kuliah\Semester 4\Pemrograman Web\FEB5026231069\image\bintang nonaktif.png" alt="">
+                <img src="image\bintang nonaktif.png" alt="">
               </span>
             </div>
             <p class="text-muted mb-0">Sudah diberi Penilaian <span role="img" aria-label="emoji">👍</span></p>

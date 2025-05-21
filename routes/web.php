@@ -14,17 +14,42 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () { 
-    return view('welcome');
+    return view('frontend');
 });
 
-Route::get('halo', function () {
-	return "<h1>Halo, Selamat datang di tutorial laravel www.malasngoding.com</h1>";
+Route::get('materi1', function () {
+	return view('pertemuan1_html');
 });
 
-Route::get('blog', function () {
-	return view('blog');
+Route::get('materi2button', function () {
+	return view('pertemuan2_button');
+});
+Route::get('materi2link', function () {
+	return view('pertemuan2_link');
 });
 
-Route::get('satu', function () {
-	return view('Pertemuan 1');
+Route::get('materi3', function () {
+	return view('pertemuan3_grid');
+});
+
+Route::get('materi4', function () {
+	return view('pertemuan4_bootstrap');
+});
+
+Route::get('materi5', function () {
+	return view('pertemuan5_linktree');
+});
+
+
+Route::get('materi7validasi', function () {
+	return view('pertemuan7_validasi');
+});
+
+
+Route::get('materi7kalkulator', function () {
+	return view('pertemuan7_kalkulator');
+});
+
+Route::get('index', function () {
+	return view('index');
 });
