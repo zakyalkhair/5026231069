@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PegawaiController extends Controller
+class Pegawai2Controller extends Controller
 {
     //
     public function index($nama){
@@ -20,7 +20,7 @@ class PegawaiController extends Controller
  public function proses(Request $request){
         $nama = $request->input('nama');
      	$alamat = $request->input('alamat');
-      	$nrp = $request->input('NRP');       
+      	$nrp = $request->input('NRP');
         return "NRP : ".$nrp. "<br>Nama : ".$nama."<br> Alamat : ".$alamat. "<br> Aslinya request :".$request;
     }
 }
