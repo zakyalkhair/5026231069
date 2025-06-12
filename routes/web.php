@@ -6,6 +6,7 @@ use App\Http\Controllers\Pegawai2Controller;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\PlastikController;
+use App\Http\Controllers\KaryawanController;
 
 
 Route::get('/', function () {
@@ -22,6 +23,15 @@ Route::get('welcome', [DosenController::class, 'welcome']);
 Route::post('/formulir/proses', [Pegawai2Controller::class, 'proses']);
 
 //Route::get('/pegawai', [DosenController::class, 'welcome']);
+
+
+//route karyawan
+Route::get('/karyawan', [KaryawanController::class, 'index']);
+Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
+Route::post('/karyawan/store', [KaryawanController::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::post('/karyawan/update',[KaryawanController::class, 'update']);
+Route::get('/karyawan/hapus/{id}', [KaryawanController::class, 'hapus']);
+
 
 
 //route pegawaiDB
