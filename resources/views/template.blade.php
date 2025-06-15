@@ -5,6 +5,7 @@
     <title>Muhammad Zaky Al Khair : 5026231069</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
 
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -19,47 +20,39 @@
     <link href="assets/css/main.css" rel="stylesheet">
 
     <style>
-        body {
-            background-color: #f5f7fa;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #eef2f3, #fdfcfa);
+            margin: 0;
+            padding: 0;
         }
 
         header {
-            background: linear-gradient(135deg, #FF5821, #fcb69e);
+            background: linear-gradient(to right, #007bff, #6610f2);
             color: white;
-            padding: 2rem 1rem;
+            padding: 3rem 1rem;
             text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
 
-        .navbar {
-            background-color: #ffffff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        header h1 {
+            font-weight: 600;
+            font-size: 2.5rem;
+            color: #ffffff;
         }
 
-        .nav-link {
-            font-weight: 500;
-            color: #333 !important;
-            transition: 0.3s ease;
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.85;
+            color: white;
         }
+         .navbar .nav-link {
+        color: #007bff !important;
+    }
 
-        .nav-link:hover {
-            color: #17a2b8 !important;
-            text-decoration: none;
-            transform: translateY(-2px);
-        }
-
-        .container {
-            padding-top: 2rem;
-        }
-
-        footer {
-            background-color: #f1f1f1;
-            color: #666;
-            padding: 1rem 0;
-            text-align: center;
-            margin-top: 3rem;
-            border-top: 1px solid #ddd;
-        }
+    .navbar .nav-link:hover {
+        color: #007bff !important;
+    }
     </style>
 </head>
 
@@ -86,13 +79,13 @@
                     <a class="nav-link" href="#"><i class="fas fa-laptop-code"></i> EAS</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="#"><i class="fas fa-edit"></i> Latihan 1</a>
+                    <a class="nav-link" href="/pagecounter"><i class="fas fa-edit"></i> Latihan 1</a>
                 </li>
                 <li class="nav-item px-2">
                     <a class="nav-link" href="/karyawan"><i class="fas fa-id-badge"></i> Latihan 2</a>
                 </li>
                 <li class="nav-item px-2">
-                    <a class="nav-link" href="#"><i class="fas fa-file-alt"></i> Latihan 3</a>
+                    <a class="nav-link" href="/karyawan2"><i class="fas fa-file-alt"></i> Latihan 3</a>
                 </li>
             </ul>
         </div>

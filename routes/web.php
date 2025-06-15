@@ -7,6 +7,8 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\PlastikController;
 use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\PageCounterController;
+use App\Http\Controllers\Karyawan2Controller;
 
 
 Route::get('/', function () {
@@ -15,24 +17,28 @@ Route::get('/', function () {
 
 
 Route::get('dosen', [DosenController::class, 'index']);
-
 Route::get('welcome', [DosenController::class, 'welcome']);
 
 //Route::get('/pegawai/{nama}', [Pegawai2Controller::class, 'index']);
 //Route::get('/formulir', [Pegawai2Controller::class, 'formulir']);
 Route::post('/formulir/proses', [Pegawai2Controller::class, 'proses']);
 
-//Route::get('/pegawai', [DosenController::class, 'welcome']);
+//Route latihan 1
+Route::get('/pagecounter', [PageCounterController::class, 'index']);
 
-
-//route karyawan
+//route latihan 2
 Route::get('/karyawan', [KaryawanController::class, 'index']);
 Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
 Route::post('/karyawan/store', [KaryawanController::class, 'store']); //jika form dikirim, route ini akan dijalankan
 Route::post('/karyawan/update',[KaryawanController::class, 'update']);
 Route::get('/karyawan/hapus/{id}', [KaryawanController::class, 'hapus']);
 
-
+//route latihan 3
+Route::get('/karyawan2', [Karyawan2Controller::class, 'index']);
+Route::get('/karyawan2/tambah2', [Karyawan2Controller::class, 'tambah']);
+Route::post('/karyawan2/store2', [Karyawan2Controller::class, 'store']); //jika form dikirim, route ini akan dijalankan
+Route::post('/karyawan2/update2',[Karyawan2Controller::class, 'update']);
+Route::get('/karyawan2/hapus2/{id}', [Karyawan2Controller::class, 'hapus']);
 
 //route pegawaiDB
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);
@@ -43,7 +49,7 @@ Route::post('/pegawai/update',[PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
 
-//route plastik
+//route tugas CRUD (plastik)
 Route::get('/plastik', [PlastikController::class, 'index']);
 Route::get('/plastik/tambah', [PlastikController::class, 'tambah']);
 Route::post('/plastik/store', [PlastikController::class, 'store']); //jika form dikirim, route ini akan dijalankan
@@ -95,3 +101,8 @@ Route::get('materi7kalkulator', function () {
 Route::get('index', function () {
 	return view('index');
 });
+
+Route::get('indexuts', function () {
+	return view('indexuts');
+});
+
