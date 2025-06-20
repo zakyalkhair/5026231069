@@ -9,12 +9,23 @@ use App\Http\Controllers\PlastikController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\PageCounterController;
 use App\Http\Controllers\Karyawan2Controller;
+use App\Http\Controllers\KeranjangController;
+use App\Http\Controllers\NilaiController;
+
+
+
+
+Route::get('/eas', [NilaiController::class, 'index']);
+Route::get('/eas/tambah', [NilaiController::class, 'tambah']);
+Route::post('/eas/store', [NilaiController::class, 'store']);
+Route::get('/eas/update',[NilaiController::class, 'update']);
 
 
 Route::get('/', function () {
     return view('frontend');
 });
 
+Route::get('/keranjang', [KeranjangController::class, 'index']);
 
 Route::get('dosen', [DosenController::class, 'index']);
 Route::get('welcome', [DosenController::class, 'welcome']);

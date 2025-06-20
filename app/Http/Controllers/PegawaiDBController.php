@@ -12,7 +12,7 @@ class PegawaiDBController extends Controller
         // mengambil data dari table pegawai
         // $pegawai = DB::table('pegawai')->get();
         $pegawai = DB::table('pegawai')->paginate(10); //digunakan untuk pagination
-
+		
         // mengirim data pegawai ke view index
         return view('index', ['pegawai' => $pegawai]);
     }
@@ -83,7 +83,7 @@ public function cari(Request $request)
 
     		// mengirim data pegawai ke view index
 		return view('index',['pegawai' => $pegawai]);
-
+    
 	}
 }
 

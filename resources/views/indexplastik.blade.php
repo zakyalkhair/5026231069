@@ -19,6 +19,15 @@
         </tr>
         @foreach ($plastik as $p)
             <tr>
+                if ($d <= 40 ) {
+            $nilaihuruf = "D" ;
+        } elseif ($d <= 60 and $d >= 41) {
+            $nilaihuruf = "C" ;
+        } elseif ($d <= 80 and $d >= 61) {
+            $nilaihuruf = "B" ;
+        } else {
+            $nilaihuruf  = "A"; // Jika bukan emoji, tetap tampilkan teks aslinya
+        }
                 <td>{{ $p->merkplastik }}</td>
                 <td>{{ $p->hargaplastik }}</td>
                 <td><p style="color: {{ $p->tersedia ? '#218838' : '#C82333' }};"
